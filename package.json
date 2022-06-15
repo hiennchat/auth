@@ -1,6 +1,6 @@
 {
-  "name": "@vtjs/auth",
-  "version": "0.2.0",
+  "name": "@hiennc/auth",
+  "version": "1.0.0",
   "description": "Auth with JWT and Google, Facebook",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,13 +18,13 @@
     "auth-project",
     "typescript"
   ],
-  "author": "Nguyen Van Tuan",
+  "author": "Hien Nguyen",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vtuanjs/auth.git"
+    "url": "git+https://github.com/hiennchat/auth.git"
   },
-  "homepage": "https://github.com/vtuanjs/auth#readme",
+  "homepage": "https://github.com/hiennchat/auth#readme",
   "devDependencies": {
     "@types/chai": "^4.2.18",
     "@types/jsonwebtoken": "^8.5.1",
@@ -44,5 +44,9 @@
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

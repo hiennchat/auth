@@ -1,4 +1,4 @@
 ## AUTH
 
 ### INSTALL
-npm install @vtjs/auth
+npm install @hiennc/auth
